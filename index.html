@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Fernando</title>
 </head>
 <body>
@@ -16,42 +20,71 @@
                         <a href="#">Sobre Fernando</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#formacoes">Formações</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="profissional">
-        <div class="container">
-            <img class="store-front" src="imagens/eu.jpg" alt="Fernando">
-            <div>
-                <h2>Sobre Fernando</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam minima totam cum. Omnis minima architecto, dolores, dicta iure dolore nam mollitia velit atque inventore quos molestias enim suscipit laudantium sequi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eius, accusamus ab molestias quaerat facere recusandae ipsa nihil quas enim aut culpa provident veritatis atque? Sunt asperiores sequi fuga accusamus.</p>
+    <div class="top-espaco">
 
-            <ul class="brands-list">
-                <li><img src="#" alt=""></li>
-                <li><img src="#" alt=""></li>
-                <li><img src="#" alt=""></li>
-            </ul>
+    </div>
+
+    <section id="profissional">
+        <div class="container main-content">
+            <img class="store-front" src="imagens/eu.jpg" alt="Fernando">
+            <div class="lados">
+                <h1 style="color: black;">Sobre Fernando</h1>
+                <p>Fernando Cesar B. Junior é um profissional apaixonado pela Psicologia, com sólida formação acadêmica e comprometimento com o bem-estar emocional e mental das pessoas. Sua jornada acadêmica e experiências práticas o capacitaram para compreender as complexidades do comportamento humano e contribuir de forma significativa para o desenvolvimento pessoal e social. Com sua dedicação e conhecimento, Fernando está preparado para impactar positivamente a vida daqueles ao seu redor.</p>
             </div>
         </div>
     </section>
 
+    <div class="container">
+        <h1 class="centro" id="formacoes">Formações</h1>
+        <div class="lados">
+            <h2 style="padding-top: 20px;">Psicologia</h2>
+            <h4>Bacharel</h4>
+            <p style="padding-top: 10px;">A formação em Psicologia proporciona um profundo entendimento do comportamento humano, emoções e relações interpessoais, preparando os profissionais para atuar de forma ética e competente em diversas áreas, contribuindo para o bem-estar e saúde mental das pessoas.</p>
+        </div>
+        <div class="lados">
+            <h2 style="padding-top: 20px;">Saúde Mental e Atenção Psicossocial</h2>
+            <h4>Pós-graduação</h4>
+            <p style="padding-top: 10px;">A pós-graduação em saúde mental e atenção psicossocial capacita profissionais para atuarem de forma especializada na promoção do bem-estar psicológico, no desenvolvimento de estratégias de intervenção e na implementação de políticas públicas voltadas para a saúde mental, visando uma abordagem mais humanizada e inclusiva.</p>
+        </div>
+        <div class="lados">
+            <h2 style="padding-top: 20px;">Psicologia Existencial, Fenomenológica e Humanista</h2>
+            <h4>Pós-graduação</h4>
+            <p style="padding-top: 10px;">A pós-graduação em Psicologia Existencial, Fenomenológica e Humanista oferece uma abordagem aprofundada e humanizada, capacitando os profissionais para compreender o ser humano em sua totalidade, promovendo o autoconhecimento, a liberdade e a busca por significado na vida.</p>
+        </div>
+        <div class="lados">
+            <h2 style="padding-top: 20px;">Antropologia Social e Cultural</h2>
+            <h4>Pós-graduação</h4>
+            <p style="padding-top: 10px;">A pós-graduação em Antropologia Social e Cultural oferece uma compreensão aprofundada das diversas culturas e sociedades, capacitando os profissionais para analisar e interpretar as dinâmicas sociais, as práticas culturais e as relações interculturais de forma crítica e reflexiva.</p>
+        </div>
+    </div>
+
     <section id="contato">
         <div class="container">
-            <h2>Contato</h2>
-            <div class="metodo-contato">
-                <div>
+            <h2 class="lados">Contato</h2>
+            <ul>
+                <a href="https://www.facebook.com/psibr1/"><li><img class="imagens" src="icones/facebook.png" alt="Facebook"></li></a>
+                <a href="https://www.instagram.com/fernandocesarb.junior/"><li><img class="imagens" src="icones/instagram.png" alt="Instagram"></li></a>
+                <a href="https://wa.me/5521965322700"><li><img class="imagens" src="icones/whatsapp.png" alt="WhatsApp"></li></a>
+            </ul>
+            <div class="metodo-contato lados">
+                <div id="fale-conosco">
                     <h3>Fale conosco</h3>
                     <form>
                         <input type="text" placeholder="Seu nome" required>
                         <input type="email" placeholder="Seu e-mail" required>
                         <input type="tel" placeholder="Seu telefone">
                         <textarea placeholder="Sua mensagem" required></textarea>
-                        <button type="submit">Enviar</button>
+                        <button class="metodo-contato" type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
